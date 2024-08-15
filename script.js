@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
             imageIndex = ((currentSegment - 2) % 8) + 2;
         }
 
-        productImage.src = "./assets/" + imageIndex + ".png";
+        productImage.src = "./assets/model/" + imageIndex + ".png";
     });
 });
 
