@@ -67,3 +67,46 @@ document.addEventListener("DOMContentLoaded", function() {
         revealText(p);
     });
 });
+
+gsap.from(".nav", {
+    duration: 0.5,
+    y: -50,
+    delay: 0,
+});
+
+gsap.from(".product-img", {
+    duration: 0.5,
+    x: -100,
+    opacity: 0,
+    delay: 0.5,
+});
+
+gsap.from("product-vars img", {
+    duration: 0.5,
+    y: 50,
+    opacity: 0,
+    stagger: 0.2,
+    delay: 0.75,
+});
+
+gsap.from(".product-size .size", {
+    duration: 0.5,
+    x: 50,
+    opacity: 0,
+    stagger: 0.025,
+    delay: 1,
+});
+
+gsap.from(".size-btn", {
+    duration: 0.3,
+    scale: 0,
+    delay: 1.25,
+});
+
+gsap.from(".product", {
+    duration: 0.5,
+    y: 50,
+    opacity: 0,
+    stagger: 0.25,
+    delay: 1.5,
+});
